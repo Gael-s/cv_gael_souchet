@@ -155,7 +155,7 @@ function Cv() {
           </section>
         </section>
 
-        <section className="container__droite">
+        <section data-aos="zoom-out-left" className="container__droite">
           <section className="container__experienceweb">
             <h2>
               Formation au développement Web - Septembre 2020 à aujourd'hui

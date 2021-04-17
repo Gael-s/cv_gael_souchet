@@ -1,6 +1,6 @@
 {
   "name": "cv_gael_souchet",
-  "homepage": "http://gaso.myftp.org/CV/",
+  "homepage": "http://gaso.myftp.org/cv/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
