@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import Photodemoi from "../Images/Photo_de_moi-leger.jpg";
 import renault from "../Images/Marque_auto/renault.png";
@@ -29,18 +32,21 @@ import cv from "./CV_Gael_SOUCHET.pdf";
 import "./Cv.scss";
 
 function Cv() {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
+
   return (
     <>
       <div className="cv">
-        <section className="container__gauche">
+        <section data-aos="zoom-out-right" className="container__gauche">
           <section className="container__presentation">
             <img src={Photodemoi} alt="photo_de_moi" />
             <div className="presentation">
               <h2>Qui suis je ?</h2>
               <p>
                 Modeleur numérique Automobile spécialisé sur le logiciel
-                Autodesk Alias design en reconversion professionnel vers le
-                métier de developpeur WEB.
+                Autodesk Alias design.
               </p>
               <p>
                 J'ai travaillé avec divers constructeurs automobile durant 19
