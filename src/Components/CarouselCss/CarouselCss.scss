@@ -13,3 +13,23 @@ img {
 }
 }
 
+// affichage tablette
+
+@media screen and (max-width: 1024px) {
+  
+  }
+  
+  // affichage Smartphone
+  
+  @media screen and (max-width: 813px) {
+	.container__image {
+		
+		img {
+			width: auto;
+			height: 200px;
+			margin: 5%;
+			border-radius: 10px;
+		}
+		}
+  }
+

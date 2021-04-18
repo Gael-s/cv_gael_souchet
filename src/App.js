@@ -6,6 +6,7 @@ import Cv from "./Components/CV/Cv";
 import Header from "./Components/Header/Header";
 import CarrouselCss from "./Components/CarouselCss/CarouselCss";
 import ScrollToTopOnMount from "./Components/ScrollToTopOnMount";
+import DevWeb from "./Components/DevWeb/DevWeb";
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
           <Route exact path="/" component={Cv}/>
           {/* <Route path="/modelisation" component={CarrouselCss} /> */}
           <Route path="/architecture" component={CarrouselCss} />
-          {/* <Route path="/developpementweb" component={Developpementweb} /> */}
+          <Route path="/developpementweb" component={DevWeb} />
       </Switch>
       <footer className="footer">
+        <div className="footer__texte"> Développé avec ReactJS</div>
         <div className="footer__Copyright">
           copyright &copy; Gaël SOUCHET 2020
         </div>

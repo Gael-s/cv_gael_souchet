@@ -42,6 +42,14 @@ html {
   width: auto;
   margin: 5% 0 2% 0;
   
+  &__texte {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7e7e7e;
+    margin: 0 0 2% 0;
+  }
 
   &__Copyright {
     font-size: 15px;
@@ -80,6 +88,9 @@ html {
     }
   }
   .footer {
+    &__texte {
+      font-size: 10px;
+    }
     &__Copyright {
       font-size: 10px;
 
