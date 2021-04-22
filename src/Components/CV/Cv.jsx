@@ -39,9 +39,19 @@ function Cv() {
   return (
     <>
       <div className="cv">
-        <section data-aos="zoom-out-right" data-aos-duration="3000" className="container__gauche">
+        <section
+          data-aos="zoom-out-right"
+          data-aos-duration="3000"
+          className="container__gauche"
+        >
           <section className="container__presentation">
-            <img data-aos="zoom-in" data-aos-delay="800" data-aos-duration="3000" src={Photodemoi} alt="photo_de_moi" />
+            <img
+              data-aos="zoom-in"
+              data-aos-delay="800"
+              data-aos-duration="3000"
+              src={Photodemoi}
+              alt="photo_de_moi"
+            />
             <div className="presentation">
               <h2>Qui suis je ?</h2>
               <p>
@@ -66,9 +76,7 @@ function Cv() {
             <div className="container__contact">
               <h2>Contact</h2>
               <div className="container__contact__flex">Gaël SOUCHET</div>
-              <div className="container__contact__flex">
-                4 rue des hautes terres 28230 EPERNON
-              </div>
+
               <div className="container__contact__flex">
                 Tèl: 06 88 39 70 90
               </div>
@@ -106,16 +114,9 @@ function Cv() {
             <div className="block__competences">
               <h3>Architecture</h3>
               <ul>
-                <li>Twinmotion</li>
                 <li>Archicad</li>
+                <li>Twinmotion</li>
               </ul>
-              <ul>
-                <li>Production d'images Rendu réaliste en vue d'alimenter des offres
-                commerciales</li>
-                <li>Accompagnement dans les démarches d'obtention de permis de
-                construire</li>
-              </ul>
-              
             </div>
             <div className="block__competences">
               <h3>Personnelles</h3>
@@ -133,23 +134,48 @@ function Cv() {
             <h2>Centre d'intérêt</h2>
             <div className="interets__img">
               <div>
-                <img data-aos="flip-right" data-aos-duration="3000" src={ordinateur} alt="Ordinateur" />
+                <img
+                  data-aos="flip-right"
+                  data-aos-duration="3000"
+                  src={ordinateur}
+                  alt="Ordinateur"
+                />
                 <div>developpement informatique</div>
               </div>
               <div>
-                <img data-aos="flip-right" data-aos-duration="3000" src={raspi} alt="Raspberry Pi" />
+                <img
+                  data-aos="flip-right"
+                  data-aos-duration="3000"
+                  src={raspi}
+                  alt="Raspberry Pi"
+                />
                 <div>Raspberry PI</div>
               </div>
               <div>
-                <img data-aos="flip-right" data-aos-duration="3000" src={imp3d} alt="Impression3d" />
+                <img
+                  data-aos="flip-right"
+                  data-aos-duration="3000"
+                  src={imp3d}
+                  alt="Impression3d"
+                />
                 <div> Impression 3d</div>
               </div>
               <div>
-                <img data-aos="flip-right" data-aos-duration="3000" src={jeuxvideo} alt="Gaming" />
+                <img
+                  data-aos="flip-right"
+                  data-aos-duration="3000"
+                  src={jeuxvideo}
+                  alt="Gaming"
+                />
                 <div>Gaming</div>
               </div>
               <div>
-                <img data-aos="flip-right" data-aos-duration="3000" src={coureur} alt="Sport" />
+                <img
+                  data-aos="flip-right"
+                  data-aos-duration="3000"
+                  src={coureur}
+                  alt="Sport"
+                />
                 <div>Sport</div>
               </div>
               <div>
@@ -159,7 +185,11 @@ function Cv() {
           </section>
         </section>
 
-        <section data-aos="zoom-out-left" data-aos-duration="3000" className="container__droite">
+        <section
+          data-aos="zoom-out-left"
+          data-aos-duration="3000"
+          className="container__droite"
+        >
           <section className="container__experienceweb">
             <h2>
               Formation au développement Web - Septembre 2020 à aujourd'hui
@@ -167,11 +197,41 @@ function Cv() {
             <h3>Wild Code School - La Loupe </h3>
             <h4>Septembre 2020 - Aujourd'hui</h4>
             <div className="experienceweb__img">
-              <img data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000" src={reactimg} alt="react" />
-              <img data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000" src={javascript} alt="javascript" />
-              <img data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000" src={html} alt="html" />
-              <img data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000" src={mysql} alt="MySql" />
-              <img data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000" src={git} alt="git" />
+              <img
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="3000"
+                src={reactimg}
+                alt="react"
+              />
+              <img
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="3000"
+                src={javascript}
+                alt="javascript"
+              />
+              <img
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="3000"
+                src={html}
+                alt="html"
+              />
+              <img
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="3000"
+                src={mysql}
+                alt="MySql"
+              />
+              <img
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="3000"
+                src={git}
+                alt="git"
+              />
             </div>
           </section>
 
@@ -182,7 +242,12 @@ function Cv() {
             </h2>
             <div>
               <div>
-                <img  data-aos="flip-left" data-aos-duration="3000" src={styledesign} alt="Logo style-design" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={styledesign}
+                  alt="Logo style-design"
+                />
               </div>
               <div>
                 <h3>Style & Design</h3>
@@ -195,7 +260,10 @@ function Cv() {
               <div>
                 <h5>Responsable métier modelage numérique</h5>
                 <ol>
-                  <li>pilotage de projet intérieur et extérieur pour Renault et Alstom</li>
+                  <li>
+                    pilotage de projet intérieur et extérieur pour Renault et
+                    Alstom
+                  </li>
                   <li>Modelage numérique en vue de validation de maquette</li>
                   <li>
                     Participation au jury d’examen modelage physique lycée
@@ -219,7 +287,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={soustraitants} alt="Logo sous-traitants" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={soustraitants}
+                  alt="Logo sous-traitants"
+                />
               </div>
               <div>
                 <h3>
@@ -238,7 +311,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={porsche} alt="Logo Porsche" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={porsche}
+                  alt="Logo Porsche"
+                />
               </div>
               <div>
                 <h3>Porsche design Stuttgart Allemagne</h3>
@@ -255,7 +333,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={bmw} alt="Logo BMW" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={bmw}
+                  alt="Logo BMW"
+                />
               </div>
               <div>
                 <h3>BMW design Munich Allemagne</h3>
@@ -269,7 +352,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={holden} alt="Logo Holden" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={holden}
+                  alt="Logo Holden"
+                />
               </div>
               <div>
                 <h3>Holden design Melbourne Australie</h3>
@@ -283,7 +371,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={opel} alt="Logo Opel" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={opel}
+                  alt="Logo Opel"
+                />
               </div>
               <div>
                 <h3>Opel design Rüsselsheim Allemagne</h3>
@@ -297,7 +390,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={renault} alt="Logo Renault" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={renault}
+                  alt="Logo Renault"
+                />
               </div>
               <div>
                 <h3>Renault Design Guyancourt</h3>
@@ -317,7 +415,12 @@ function Cv() {
             <h2>Formation - de 1995 à 2001</h2>
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={reaumur} alt="lycée Réaumur LAVAL" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={reaumur}
+                  alt="lycée Réaumur LAVAL"
+                />
               </div>
               <div>
                 <h3>Lycée Réaumur - LAVAL (53)</h3>
@@ -330,7 +433,12 @@ function Cv() {
             <hr />
             <div>
               <div>
-                <img data-aos="flip-left" data-aos-duration="3000" src={bascan} alt="Lycée Louis Bascan RAMBOUILLET" />
+                <img
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                  src={bascan}
+                  alt="Lycée Louis Bascan RAMBOUILLET"
+                />
               </div>
               <div>
                 <h3>Lycée Louis BASCAN - RAMBOUILLET (78)</h3>

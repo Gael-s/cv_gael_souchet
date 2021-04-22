@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import CarrouselCss from "./Components/CarouselCss/CarouselCss";
 import ScrollToTopOnMount from "./Components/ScrollToTopOnMount";
 import DevWeb from "./Components/DevWeb/DevWeb";
+import Contact from "./Components/Contact/Contact"
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           {/* <Route path="/modelisation" component={CarrouselCss} /> */}
           <Route path="/architecture" component={CarrouselCss} />
           <Route path="/developpementweb" component={DevWeb} />
+          <Route path="/contact" component={Contact} />
+
       </Switch>
       <footer className="footer">
         <div className="footer__texte"> Développé avec ReactJS</div>

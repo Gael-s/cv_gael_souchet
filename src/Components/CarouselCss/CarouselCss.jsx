@@ -5,79 +5,83 @@ import "aos/dist/aos.css";
 
 import "./CarouselCss.scss";
 
-import img1 from "./Images_carousel/1.png";
-import img2 from "./Images_carousel/2.png";
-import img3 from "./Images_carousel/3.png";
-import img4 from "./Images_carousel/4.png";
-import img5 from "./Images_carousel/5.png";
-import img6 from "./Images_carousel/6.png";
-import img7 from "./Images_carousel/7.png";
-import img8 from "./Images_carousel/8.png";
+import img1 from "./Images_carousel/1.jpg";
+import img2 from "./Images_carousel/2.jpg";
+import img3 from "./Images_carousel/3.jpg";
+import img4 from "./Images_carousel/4.jpg";
+import img5 from "./Images_carousel/5.jpg";
+import img6 from "./Images_carousel/6.jpg";
+import img7 from "./Images_carousel/7.jpg";
+import img8 from "./Images_carousel/8.jpg";
 
 function CarouselCss() {
   useEffect(() => {
-    Aos.init({});
+    Aos.init({ duration: 3000, anchorPlacement: "center-center" });
   }, []);
 
   return (
-    <div className="container__image">
-      <img
-        data-aos="flip-left"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="bottom-bottom"
-        src={img1}
-        alt="archi01"
-      />
-      <img
-        data-aos="flip-right"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img2}
-        alt="archi02"
-      />
-      <img
-        data-aos="flip-left"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img3}
-        alt="archi03"
-      />
-      <img
-        data-aos="flip-right"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img4}
-        alt="archi04"
-      />
-      <img
-        data-aos="flip-left"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img5}
-        alt="archi05"
-      />
-      <img
-        data-aos="flip-right"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img6}
-        alt="archi06"
-      />
-      <img
-        data-aos="flip-left"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img7}
-        alt="archi07"
-      />
-      <img
-        data-aos="flip-right"
-        data-aos-duration="3000"
-        data-aos-anchor-placement="center-center"
-        src={img8}
-        alt="archi08"
-      />
-    </div>
+    <>
+      <div className="container__descriptif__archi">
+        <h3>Logiciels utilisés : </h3>
+        <ul>
+          <li>Twinmotion</li>
+          <li>Archicad</li>
+        </ul>
+        <h3>Description de la mission : </h3>
+        <ul>
+          <li>
+            Production d'images Rendu réaliste en vue d'alimenter des offres
+            commerciales
+          </li>
+          <li>
+            Accompagnement dans les démarches d'obtention de permis de
+            construire
+          </li>
+        </ul>
+      </div>
+      <div className="container__image">
+        <img
+          data-aos="flip-left"
+          src={img1}
+          alt="archi01"
+        />
+        <img
+          data-aos="flip-right"
+          src={img2}
+          alt="archi02"
+        />
+        <img
+          data-aos="flip-left"
+          src={img3}
+          alt="archi03"
+        />
+        <img
+          data-aos="flip-right"
+          src={img4}
+          alt="archi04"
+        />
+        <img
+          data-aos="flip-left"
+          src={img5}
+          alt="archi05"
+        />
+        <img
+          data-aos="flip-right"
+          src={img6}
+          alt="archi06"
+        />
+        <img
+          data-aos="flip-left"
+          src={img7}
+          alt="archi07"
+        />
+        <img
+          data-aos="flip-right"
+          src={img8}
+          alt="archi08"
+        />
+      </div>
+    </>
   );
 }
 

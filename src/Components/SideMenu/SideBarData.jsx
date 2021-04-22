@@ -30,6 +30,13 @@ const SideBarData = [
     icon: <FaIcons.FaReact />,
     cName: "nav-text",
   },
+
+  {
+    title: "Contact",
+    path: "/contact",
+    icon: <FaIcons.FaEnvelope />,
+    cName: "nav-text",
+  },
 ];
 
 export default SideBarData;
