@@ -16,7 +16,7 @@ import img8 from "./Images_carousel/8.jpg";
 
 function CarouselCss() {
   useEffect(() => {
-    Aos.init({ duration: 3000, anchorPlacement: "center-center" });
+    Aos.init({ duration: 3000, anchorPlacement: "center-center", delay: 250 });
   }, []);
 
   return (
@@ -27,7 +27,7 @@ function CarouselCss() {
           <li>Twinmotion</li>
           <li>Archicad</li>
         </ul>
-        <h3>Description de la mission : </h3>
+        <h3>Description de l'offre : </h3>
         <ul>
           <li>
             Production d'images Rendu réaliste en vue d'alimenter des offres
