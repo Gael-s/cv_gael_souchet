@@ -1,0 +1,28 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "serveur express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:watch": "nodemon app.js"
+  },
+  "author": "Gael",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "db-migrate": "^0.11.12",
+    "db-migrate-mysql": "^2.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
