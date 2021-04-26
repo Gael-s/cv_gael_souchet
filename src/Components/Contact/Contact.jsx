@@ -70,15 +70,34 @@ function Contact() {
     email: "",
     userMessage: "",
   });
+  const [message, setMessage] = useState();
+
   const handleSubmitMessage = (e) => {
     e.preventDefault();
-    console.log(userData);
+    console.log(process.env)
+    fetch(`${process.env.REACT_APP_API_URL}contact/sendmessage`, {
+      method: "POST",
+      headers: new Headers({
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      }),
+      body: JSON.stringify(userData),
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        setMessage(res.message);
+        setTimeout(() => {
+          setMessage();
+        }, 2000);
+      });
   };
   return (
     <>
-    <Link to="/">
-      <StyledButtonBackHome type="button">Retour à l&apos;acceuil</StyledButtonBackHome>
-    </Link>
+      <Link to="/">
+        <StyledButtonBackHome type="button">
+          Retour à l&apos;acceuil
+        </StyledButtonBackHome>
+      </Link>
       <StyledForm action="submit" onSubmit={handleSubmitMessage}>
         <StyledLabel htmlFor="name">Nom :</StyledLabel>
         <StyledInput
@@ -90,7 +109,8 @@ function Contact() {
             setUserData({
               ...userData,
               nom: e.target.value,
-            })}
+            })
+          }
         />
         <StyledLabel htmlFor="mail">e-mail :</StyledLabel>
         <StyledInput
@@ -102,7 +122,8 @@ function Contact() {
             setUserData({
               ...userData,
               email: e.target.value,
-            })}
+            })
+          }
         />
         <StyledLabel htmlFor="msg">Message :</StyledLabel>
         <div>
@@ -114,11 +135,13 @@ function Contact() {
               setUserData({
                 ...userData,
                 userMessage: e.target.value,
-              })}
+              })
+            }
           >
             {" "}
           </StyledTextArea>
         </div>
+        {!message ? null : <div className="message">{message}</div>}
         <StyledButton type="submit">Envoyer le message</StyledButton>
       </StyledForm>
     </>

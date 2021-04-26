@@ -36,7 +36,7 @@ app.use(handleServerInternalError);
 app.use('/public', express.static('public'));
 
 // export du serveur
-const server = app.listen(process.env.SERVER_PORT || 6000, () => {
+const server = app.listen(process.env.SERVER_PORT || 5002, () => {
   console.log(`Listening on port ${  server.address().port}`);
 });
 

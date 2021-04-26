@@ -59,11 +59,11 @@ function Cv() {
                 Autodesk Alias design.
               </p>
               <p>
-                J'ai travaillé avec divers constructeurs automobile durant 19
+                J&apos;ai travaillé avec divers constructeurs automobile durant 19
                 ans en tant que Modeleur numérique Free lance.
               </p>
               <p>
-                J'ai eu l'opportunité de travailler en France, Allemagne,
+                J&apos;ai eu l&apos;opportunité de travailler en France, Allemagne,
                 Australie dans les studio de design des constructeurs
                 automobiles.
               </p>
@@ -131,7 +131,7 @@ function Cv() {
           </section>
 
           <section className="container__interets">
-            <h2>Centre d'intérêt</h2>
+            <h2>Centre d&apos;intérêt</h2>
             <div className="interets__img">
               <div>
                 <img
@@ -192,10 +192,10 @@ function Cv() {
         >
           <section className="container__experienceweb">
             <h2>
-              Formation au développement Web - Septembre 2020 à aujourd'hui
+              Formation au développement Web - Septembre 2020 à aujourd&apos;hui
             </h2>
             <h3>Wild Code School - La Loupe </h3>
-            <h4>Septembre 2020 - Aujourd'hui</h4>
+            <h4>Septembre 2020 - Aujourd&apos;hui</h4>
             <div className="experienceweb__img">
               <img
                 data-aos="flip-up"
@@ -266,16 +266,16 @@ function Cv() {
                   </li>
                   <li>Modelage numérique en vue de validation de maquette</li>
                   <li>
-                    Participation au jury d’examen modelage physique lycée
+                    Participation au jury d&apos;examen modelage physique lycée
                     Berthelot/Questembert
                   </li>
                 </ol>
                 <h5>Validation Qualité Design</h5>
                 <ol>
-                  <li>Pilotage de l’activité</li>
+                  <li>Pilotage de l&apos;activité</li>
                   <li>
                     cotation des pièces durant les phases de réalisation
-                    d’outillages
+                    d&apos;outillages
                   </li>
                   <li>
                     Suivi & pilotage des réunions entre concepteurs,
@@ -296,7 +296,7 @@ function Cv() {
               </div>
               <div>
                 <h3>
-                  Travail en tans qu' indépendant pour divers sous-traitants
+                  Travail en tans qu&apos;indépendant pour divers sous-traitants
                   automobile
                 </h3>
                 <h4>Modeleur Numérique classe A</h4>
@@ -325,7 +325,7 @@ function Cv() {
               </div>
               <div>
                 <p>
-                  Modélistion en équipe de l'interieur du concept car sport
+                  Modélistion en équipe de l&apos;interieur du concept car sport
                   turismo
                 </p>
               </div>
@@ -346,7 +346,7 @@ function Cv() {
                 <h4>Septembre 2009 - Mai 2010</h4>
               </div>
               <div>
-                <p>Modélistion en équipe de l'interieur du concept car i3</p>
+                <p>Modélistion en équipe de l&apos;interieur du concept car i3</p>
               </div>
             </div>
             <hr />
@@ -404,7 +404,7 @@ function Cv() {
               </div>
               <div>
                 <p>
-                  Modélisation Classe A de véhicule dans le but d'une mise en
+                  Modélisation Classe A de véhicule dans le but d&apos;une mise en
                   production
                 </p>
               </div>

@@ -27,14 +27,14 @@ function CarouselCss() {
           <li>Twinmotion</li>
           <li>Archicad</li>
         </ul>
-        <h3>Description de l'offre : </h3>
+        <h3>Description de l&apos;offre : </h3>
         <ul>
           <li>
-            Production d'images Rendu réaliste en vue d'alimenter des offres
+            Production d&apos;images Rendu réaliste en vue d&apos;alimenter des offres
             commerciales
           </li>
           <li>
-            Accompagnement dans les démarches d'obtention de permis de
+            Accompagnement dans les démarches d&apos;obtention de permis de
             construire
           </li>
         </ul>
