@@ -22,12 +22,7 @@ function CarouselCss() {
   return (
     <>
       <div className="container__descriptif__archi">
-        <h3>Logiciels utilisés : </h3>
-        <ul>
-          <li>Twinmotion</li>
-          <li>Archicad</li>
-        </ul>
-        <h3>Description de l&apos;offre : </h3>
+        
         <ul>
           <li>
             Production d&apos;images Rendu réaliste en vue d&apos;alimenter des offres
@@ -37,6 +32,11 @@ function CarouselCss() {
             Accompagnement dans les démarches d&apos;obtention de permis de
             construire
           </li>
+        <h3>Logiciels utilisés : </h3>
+        <ul>
+          <li>Twinmotion</li>
+          <li>Archicad</li>
+        </ul>
         </ul>
       </div>
       <div className="container__image">

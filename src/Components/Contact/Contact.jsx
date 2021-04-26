@@ -23,6 +23,7 @@ const StyledInput = styled.input`
   padding: 7px;
   border-radius: 10px;
   border: solid 2px black;
+  outline: none;
 `;
 const StyledButton = styled.button`
 font-size: 24px;
@@ -35,7 +36,7 @@ outline-style:none;
 border: none;
 cursor: pointer;
 :active {
-  background-color: darkred;
+  background-color: darkorange;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 `;
@@ -62,6 +63,7 @@ const StyledTextArea = styled.textarea`
   height: 15em;
   width: 35em;
   margin: 5% 0 5% 0;
+  outline: none;
 `;
 
 function Contact() {
@@ -74,7 +76,6 @@ function Contact() {
 
   const handleSubmitMessage = (e) => {
     e.preventDefault();
-    console.log(process.env)
     fetch(`${process.env.REACT_APP_API_URL}contact/sendmessage`, {
       method: "POST",
       headers: new Headers({
@@ -91,6 +92,7 @@ function Contact() {
         }, 2000);
       });
   };
+
   return (
     <>
       <Link to="/">
@@ -111,6 +113,7 @@ function Contact() {
               nom: e.target.value,
             })
           }
+          required
         />
         <StyledLabel htmlFor="mail">e-mail :</StyledLabel>
         <StyledInput
@@ -124,6 +127,8 @@ function Contact() {
               email: e.target.value,
             })
           }
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
+          required
         />
         <StyledLabel htmlFor="msg">Message :</StyledLabel>
         <div>
@@ -137,6 +142,7 @@ function Contact() {
                 userMessage: e.target.value,
               })
             }
+            required
           >
             {" "}
           </StyledTextArea>

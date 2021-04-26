@@ -5,11 +5,16 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 // Connexion a la boite mail
 const transporter = nodemailer.createTransport({
-  host: "smtp.ethereal.email",
+  // host: "smtp.ethereal.email",
+  host: "smtp-mail.outlook.com",
+  secureConnection: false,
   port: 587,
   auth: {
     user: process.env.NODEMAILER_ADRESS,
     pass: process.env.NODEMAILER_PASSWORD,
+  },
+  tls: {
+    ciphers: "SSLv3",
   },
 });
 
@@ -31,11 +36,10 @@ router.post("/sendmessage", (req, res) => {
 
   // préparation de l'envoie de l'email
   const mail = {
-    from: "no-reply@ethereal.email",
+    from: "matur@hotmail.fr",
     to: process.env.CONTACT_MAIL,
     subject: "Quelqu'un vous a laissé un message sur votre site",
-    html:
-    `<p><h1>${Userdata.nom}</h1> vous a laissé un message : <br> <br /> ${Userdata.userMessage}</p>`
+    html: `<p><h1>${Userdata.nom}</h1><h1>${Userdata.email}</h1> vous a laissé un message : <br> <br /> ${Userdata.userMessage}</p>`,
   };
   // envoie de l'email
   transporter.sendMail(mail, (err, data) => {
