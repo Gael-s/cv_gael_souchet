@@ -64,7 +64,7 @@ function Cv() {
               </p>
               <p>
                 J&apos;ai eu l&apos;opportunité de travailler en France, Allemagne,
-                Australie dans les studio de design des constructeurs
+                Australie dans les studios de design des constructeurs
                 automobiles.
               </p>
             </div>
@@ -90,6 +90,14 @@ function Cv() {
 
           <section className="container__competences">
             <h2>Compétences</h2>
+            <div className="block__competences">
+              <h3>Langues</h3>
+              <ul>
+                <li>Français, langue natale</li>
+                <li>Anglais niveau professionnel</li>
+                <li>Allemand basic </li>
+              </ul>
+            </div>
             <div className="block__competences">
               <h3>Modelage Numérique</h3>
               <ul>
@@ -261,7 +269,7 @@ function Cv() {
                 <h5>Responsable métier modelage numérique</h5>
                 <ol>
                   <li>
-                    pilotage de projet intérieur et extérieur pour Renault et
+                    pilotage de projets intérieurs et extérieurs pour Renault et
                     Alstom
                   </li>
                   <li>Modelage numérique en vue de validation de maquette</li>
@@ -296,7 +304,7 @@ function Cv() {
               </div>
               <div>
                 <h3>
-                  Travail en tans qu&apos;indépendant pour divers sous-traitants
+                  Travail en tant qu&apos;indépendant pour divers sous-traitants
                   automobile
                 </h3>
                 <h4>Modeleur Numérique classe A</h4>
@@ -304,7 +312,7 @@ function Cv() {
               </div>
               <div>
                 <p>
-                  Divers travail de modélisation en vue de mise en production
+                  Divers travaux de modélisation en vue de mise en production
                 </p>
               </div>
             </div>

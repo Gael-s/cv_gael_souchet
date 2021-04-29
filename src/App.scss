@@ -15,10 +15,16 @@ html {
 .header {
   display: flex;
   padding: 1%;
-  color: #ffb300;
   h1 {
-    
     margin-left: 5%;
+    a{
+      color: #ffb300;
+      outline: none;
+      text-decoration: none;
+    }
+    a:hover{
+      color: darkorange;
+    }
   }
   .header__reseaux {
     display: flex;

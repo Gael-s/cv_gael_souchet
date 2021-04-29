@@ -18,6 +18,7 @@ function SideBar() {
     <>
       <div className="sidebar">
         <div className="menu-bars">
+          <div className="menu-titre">Menu</div>
           <HiIcons.HiMenu onClick={showSidebar} />
         </div>
       </div>
